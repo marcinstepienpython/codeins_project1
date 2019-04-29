@@ -161,7 +161,7 @@ body {
 }
 
 #posters {
-  padding: 1rem;
+  padding: 3rem;
   background: rgba(0, 0, 0, 0.9);
   color: white;
   font-size: 6rem;
@@ -169,4 +169,26 @@ body {
 
 #posters img {
   opacity: 0.6;
+}
+
+#social {
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 3rem;
+}
+
+#social a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  #albums p {
+    font-size: 4rem;
+  }
+
+  #header {
+    background-attachment: initial;
+  }
 }
