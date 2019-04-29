@@ -149,3 +149,13 @@ body {
   font-size: 2rem;
   padding: 2rem;
 }
+
+#book {
+  padding: 3rem;
+  height: 700px;
+  background: url("../img/book.jpg");
+  background-size: cover;
+
+  color: white;
+  font-size: 6rem;
+}
