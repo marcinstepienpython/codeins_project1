@@ -1,7 +1,9 @@
+/* CREATING SCROLL SMOOTH EFFECT  */
 html {
   scroll-behavior: smooth;
 }
 
+/* CHOOSING THE PROJECT FONT */
 body {
   font-family: "Bangers", cursive;
 }
@@ -46,4 +48,12 @@ body {
   padding: 5px;
   color: white;
   opacity: 0.7;
+}
+
+#main-navigation nav {
+  opacity: 0.7;
+}
+
+#main-navigation {
+  font-size: 1.5rem;
 }
