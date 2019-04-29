@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Bangers", cursive;
+}
+
+#header {
+  position: relative;
+  background: url("../img/monkees.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: white;
+  font-size: 4rem;
+}
+
+#header a {
+  text-decoration: none;
+  color: white;
+}
+
+#header .img-middle {
+  opacity: 0.3;
+}
+
+#header .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.red-highlight {
+  background: rgb(168, 19, 19);
+  padding: 5px;
+  color: white;
+  opacity: 0.7;
+}
+
+.black-highlight {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  color: white;
+  opacity: 0.7;
+}
