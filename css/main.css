@@ -101,3 +101,32 @@ body {
 #concerts .lead {
   font-size: 2rem;
 }
+
+#albums {
+  position: relative;
+  height: 170px;
+  background: url("../img/gramophone.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#albums .albums-content {
+  position: relative;
+  padding: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+}
+
+#albums-list {
+  background: white;
+  color: black;
+  font-size: 6rem;
+}
