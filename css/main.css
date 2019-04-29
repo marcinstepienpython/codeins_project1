@@ -51,9 +51,30 @@ body {
 }
 
 #main-navigation nav {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 #main-navigation {
   font-size: 1.5rem;
+}
+
+#news {
+  position: relative;
+  height: 650px;
+  background: url("../img/drumer.jpg");
+  background-size: cover;
+  background-position: top;
+  color: white;
+  opacity: 0.9;
+}
+
+#news .news-content {
+  padding: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: black;
+  opacity: 0.8;
+  font-size: 6rem;
 }
