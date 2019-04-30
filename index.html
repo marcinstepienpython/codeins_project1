@@ -31,7 +31,6 @@
         id="main-nav"
       >
         <div class="container">
-          <a class="navbar-brand" href="#"></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -45,7 +44,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home </a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#news">News </a>
               </li>
               <li class="nav-item">
@@ -73,7 +75,17 @@
     <!-- DARK OVERLAY OVER THE BACKGROUND IMAGE-->
     <section id="header">
       <div class="container">
-        <div class="dark-overlay"></div>
+        <div class="dark-overlay">
+          <div class="container">
+            <div class="slogan">
+              <p>
+                They really <span class="red-highlight">rock</span> the house!
+              </p>
+
+              <p class="small">-- Time Magazine (04/2018)</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -313,9 +325,9 @@
     </section>
 
     <!-- IMPLEMENTING SCROLL SPY -->
-<script>
-$(body).scrollspy({target: "#main-nav"})
-</script>
+    <script>
+      $(body).scrollspy({ target: "#main-nav" });
+    </script>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
