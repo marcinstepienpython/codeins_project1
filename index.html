@@ -23,10 +23,13 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>Rock'n'Roll in the House</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#main-nav" id="home">
     <!-- MAIN NAVIGATION BAR -->
     <section id="main-navigation">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"
+        id="main-nav"
+      >
         <div class="container">
           <a class="navbar-brand" href="#"></a>
           <button
@@ -262,40 +265,58 @@
         </div>
       </div>
     </section>
-    
+
     <!-- POSTERS -->
 
     <section id="posters">
-            <div class="container"><p>po<span class='red-highlight'>s</span>ters</p>
-              <div class="row">
-                <div class="col-sm text-center mt-2"><img src="./img/dj (1).jpg" alt="dj"></div>
-                <div class="col-sm text-center mt-2"><img src="./img/md (1).jpg" alt="dj"></div>
-                <div class="col-sm text-center mt-2"><img src="./img/pt (1).jpg" alt="dj"></div>
-                <div class="col-sm text-center mt-2"><img src="./img/mn (1).jpg" alt="dj"></div>
-              </div>
-            </div>
+      <div class="container">
+        <p>po<span class="red-highlight">s</span>ters</p>
+        <div class="row">
+          <div class="col-sm text-center mt-2">
+            <img src="./img/dj (1).jpg" alt="dj" />
+          </div>
+          <div class="col-sm text-center mt-2">
+            <img src="./img/md (1).jpg" alt="dj" />
+          </div>
+          <div class="col-sm text-center mt-2">
+            <img src="./img/pt (1).jpg" alt="dj" />
+          </div>
+          <div class="col-sm text-center mt-2">
+            <img src="./img/mn (1).jpg" alt="dj" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- SOCIAL FOOTER -->
 
     <section id="social">
-            <div class="container"> 
-            <div class="row text-center">
-            <div class="col-md-4">
-              <a href='https://www.facebook.com/TheMonkees/'><i class="fab fa-facebook"></i></a>
-            </div>
-            <div class="col-md-4">
-                <a href='https://twitter.com/themonkees'><i class="fab fa-twitter"></i></a>
-            </div>
-            <div class="col-md-4">
-                <a href='https://www.instagram.com/themonkees/'><i class="fab fa-instagram"></i></a>
-            </div>
-          
-            
-          
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <a href="https://www.facebook.com/TheMonkees/"
+              ><i class="fab fa-facebook"></i
+            ></a>
           </div>
-          </div> 
-        </section>
+          <div class="col-md-4">
+            <a href="https://twitter.com/themonkees"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://www.instagram.com/themonkees/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPLEMENTING SCROLL SPY -->
+<script>
+$(body).scrollspy({target: "#main-nav"})
+</script>
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
